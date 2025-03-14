@@ -25,12 +25,12 @@
                     <% if(currUser && currUser._id.equals(singleList.owner._id)) { %> 
                         <div class="row">
                             <div class="col-2">
-                                <form action="http://localhost:3000/listings/edit/<%=singleList._id%>">
+                                <form action="/listings/edit/<%=singleList._id%>">
                                     <button class="btn btn-outline-primary">Edit</button>
                                 </form>
                             </div>
                             <div class="col-2">
-                                <form action="http://localhost:3000/listings/delete/<%=singleList._id%>?_method=DELETE"
+                                <form action="/listings/delete/<%=singleList._id%>?_method=DELETE"
                                     method="post">
                                     <button class="btn btn-outline-danger">Delete</button>
                                 </form>
