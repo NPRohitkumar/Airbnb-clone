@@ -1,0 +1,168 @@
+*{
+    font-family: "Montserrat", serif;
+}
+
+.navbar-brand{
+    color: rgb(255, 90, 95) !important;
+    font-size: 2em;
+}
+
+.nav-link{
+    color: black !important;
+}
+
+.navbar{
+    z-index: 1000 !important;
+    height: 5rem;
+    position: sticky;
+    width: 100%;
+    top: 0px;
+    background-color: white;
+}
+
+.privacy-terms{
+    display: flex;
+    justify-content: center;
+}
+.privacy-terms p{
+    margin-right: 2px;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background-color:rgb(217, 214, 214);
+    box-shadow: 0px -0.1px 0.5px black;
+    align-content: center;
+}
+
+.social-media-icons i{
+    font-size: 1.1em;
+    margin-right: 5px;
+}
+
+.lineOne{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.home-card{
+    border: none;
+    padding: 0px !important;
+    border-radius: 1rem;
+    margin: 0 0 2rem 0;
+    width: 19rem;
+    transition: transform 0.3s linear 0s;
+}
+
+.card-img-top{
+    border-radius:1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+    height: 17rem;
+}
+
+.card-img-top:hover{
+    opacity: 0.8;
+}
+.home-card:hover{
+    transform: scale(1.03);
+}
+
+.card-body{
+    padding: 0.5rem 0 0 0;
+    font-size:0.8em;
+}
+
+.listing-link{
+    text-decoration: none;
+}
+.container{
+    margin-top: 30px;
+}
+.logo{
+    height: 30px;
+    width: 100px;
+}
+
+.submit-button{
+    border: 2px solid rgb(255, 90, 95);
+    background-color: white !important;
+    color: rgb(255, 90, 95);
+
+}
+.submit-button:hover{
+    background-color: rgb(255, 90, 95) !important;
+    color: white;
+}
+
+.show-img{
+    width:100%;
+    height: 50vh;
+}
+
+.show-card{
+    width: 40rem !important;
+    border: none;
+    padding: 0px !important;
+    border-radius: 1rem;
+}
+
+.alert svg {
+    width: 35px;  /* Adjust width as needed */
+    height: 35px; /* Adjust height as needed */
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1; /* Pushes the footer to the bottom */
+}
+
+.submit-tag{
+    border: 2px solid rgb(255, 90, 95);
+    background-color: white !important;
+    color: rgb(255, 90, 95);
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 5px;
+
+}
+.submit-tag:hover{
+    background-color: rgb(255, 90, 95) !important;
+    color: white;
+}
+
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter {
+    margin-top: 1rem;
+    margin-right: 2.4rem;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.filter:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+.tax-info{
+    display: none;
+}
+.tax-toggle{
+    border: 1.5px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
